@@ -718,8 +718,8 @@ async function loadDashboardData() {
         // Update stock numbers
         updateStockNumbers(inventory);
         
-        // Load fulfillments for chart
-        const fulfillmentsResponse = await fetch(`${API_BASE}/fulfillments?limit=100`);
+        // Load fulfillments for chart (load all records)
+        const fulfillmentsResponse = await fetch(`${API_BASE}/fulfillments?limit=1000`);
         const fulfillmentsData = await fulfillmentsResponse.json();
         appState.fulfillments = fulfillmentsData.fulfillments || [];
         
