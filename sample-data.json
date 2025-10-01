@@ -1,0 +1,3723 @@
+{
+    "status": "success",
+    "message": "GET request processed successfully",
+    "data": [
+        {
+            "recordType": "itemfulfillment",
+            "id": "1208798",
+            "values": {
+                "datecreated": "09/05/2025 9:10 am",
+                "createdFrom.tranid": "SO29920",
+                "tranid": "IF31375",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "ENGRAVED - Mrs",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1268",
+                        "text": "DPT16SC-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Champagne(Metallic)",
+                "custcol1": "",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1268",
+                        "text": "DPT16SC-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "610434",
+                        "text": "12530 Louise Hoffmann"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Louise Hoffmann\r\n1112 Meyer Parkway\r\nNew Braunfels TX 78132\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#34833",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^33fd3514^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1208798",
+            "values": {
+                "datecreated": "09/05/2025 9:10 am",
+                "createdFrom.tranid": "SO29920",
+                "tranid": "IF31375",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "ENGRAVED - Mrs",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1236",
+                        "text": "PT16SC"
+                    }
+                ],
+                "item.custitem_item_color": "Champagne (Metallic)",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7001&c=7913744&h=13_x9nWcJ_eEamEw5CotiDVsQ_4V4vkMVUxgeST4qbclFcHg",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1236",
+                        "text": "PT16SC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "610434",
+                        "text": "12530 Louise Hoffmann"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Louise Hoffmann\r\n1112 Meyer Parkway\r\nNew Braunfels TX 78132\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#34833",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7001&c=7913744&h=13_x9nWcJ_eEamEw5CotiDVsQ_4V4vkMVUxgeST4qbclFcHg",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^33fd3514^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1235",
+                        "text": "DPT16MFG-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Forever Green",
+                "custcol1": "",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1235",
+                        "text": "DPT16MFG-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1412",
+                        "text": "DPT16MFG"
+                    }
+                ],
+                "item.custitem_item_color": "Forever Green",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8466&c=7913744&h=xs9ItLYiOE8QI8SDgYdOGGAjVKnhm5NFBTOoV0JxcG8BKKHh",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1412",
+                        "text": "DPT16MFG"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8466&c=7913744&h=xs9ItLYiOE8QI8SDgYdOGGAjVKnhm5NFBTOoV0JxcG8BKKHh",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1229",
+                        "text": "DPT10SS-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Slate",
+                "custcol1": "",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1229",
+                        "text": "DPT10SS-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1395",
+                        "text": "DPT10SS"
+                    }
+                ],
+                "item.custitem_item_color": "Slate",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6999&c=7913744&h=JHvE5F837vUM9rCdIL2iauN-eKc4nXZYglDjxExx4tp1U5GW",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1395",
+                        "text": "DPT10SS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6999&c=7913744&h=JHvE5F837vUM9rCdIL2iauN-eKc4nXZYglDjxExx4tp1U5GW",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1450",
+                        "text": "DPT16POLL"
+                    }
+                ],
+                "item.custitem_item_color": "Last Light",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6866&c=7913744&h=Trrojru89n9N-LJO3JkvTe0hKieexF0ioPcAEHPmTaRspVa0",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1450",
+                        "text": "DPT16POLL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6866&c=7913744&h=Trrojru89n9N-LJO3JkvTe0hKieexF0ioPcAEHPmTaRspVa0",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1294",
+                        "text": "DPT10MC-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1294",
+                        "text": "DPT10MC-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "Gallery",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1217670",
+            "values": {
+                "datecreated": "09/10/2025 8:46 am",
+                "createdFrom.tranid": "SO30242",
+                "tranid": "IF31678",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1361",
+                        "text": "DPT10MC"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6995&c=7913744&h=JCUOofdqSV1B08E2ZkLTrptQN_CIPtoEWfydeesmXxT5bYJH",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1361",
+                        "text": "DPT10MC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "949929",
+                        "text": "22907 Joanne Kosior"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Joanne Kosior\r\n1035 Kendall St\r\nElburn IL 60119\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35120",
+                "formulatext": "Gallery",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6995&c=7913744&h=JCUOofdqSV1B08E2ZkLTrptQN_CIPtoEWfydeesmXxT5bYJH",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3410826c^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1218399",
+            "values": {
+                "datecreated": "09/10/2025 3:15 pm",
+                "createdFrom.tranid": "SO30285",
+                "tranid": "IF31719",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "8",
+                        "text": "Customized"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1467",
+                        "text": "DPT16SS"
+                    }
+                ],
+                "item.custitem_item_color": "Slate",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7001&c=7913744&h=13_x9nWcJ_eEamEw5CotiDVsQ_4V4vkMVUxgeST4qbclFcHg",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1467",
+                        "text": "DPT16SS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "60709",
+                        "text": "1985 Pirani Life"
+                    }
+                ],
+                "quantity": "50",
+                "shipaddress": "Danielle Del Sordo\nPirani Life\n23 Melbourne Place\nAsheville NC 28801\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "4",
+                        "text": "UPS® Ground"
+                    }
+                ],
+                "createdFrom.otherrefnum": "",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7001&c=7913744&h=13_x9nWcJ_eEamEw5CotiDVsQ_4V4vkMVUxgeST4qbclFcHg",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1218399",
+            "values": {
+                "datecreated": "09/10/2025 3:15 pm",
+                "createdFrom.tranid": "SO30285",
+                "tranid": "IF31719",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "8",
+                        "text": "Customized"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1537",
+                        "text": "PT-BOX"
+                    }
+                ],
+                "item.custitem_item_color": "",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1537",
+                        "text": "PT-BOX"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "60709",
+                        "text": "1985 Pirani Life"
+                    }
+                ],
+                "quantity": "50",
+                "shipaddress": "Danielle Del Sordo\nPirani Life\n23 Melbourne Place\nAsheville NC 28801\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "4",
+                        "text": "UPS® Ground"
+                    }
+                ],
+                "createdFrom.otherrefnum": "",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "",
+                "item.type": [
+                    {
+                        "value": "Service",
+                        "text": "Service"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1232831",
+            "values": {
+                "datecreated": "09/17/2025 3:24 pm",
+                "createdFrom.tranid": "SO30574",
+                "tranid": "IF32111",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1446",
+                        "text": "DPT16PODB"
+                    }
+                ],
+                "item.custitem_item_color": "Day Break",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6867&c=7913744&h=3GvvK9irpS408xAVIcHeQuQMR3bOozDnHVv1sCLos1C46pCb",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1446",
+                        "text": "DPT16PODB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "956543",
+                        "text": "23047 Nathalie Johnsen"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Nathalie Johnsen\r\n17014 County Rd 15\r\nMoose Creek ON K0C 1W0\r\nCanada",
+                "shipmethod": [
+                    {
+                        "value": "1036",
+                        "text": "Economy International"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35304",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6867&c=7913744&h=3GvvK9irpS408xAVIcHeQuQMR3bOozDnHVv1sCLos1C46pCb",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^342cbffc^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1232831",
+            "values": {
+                "datecreated": "09/17/2025 3:24 pm",
+                "createdFrom.tranid": "SO30574",
+                "tranid": "IF32111",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1450",
+                        "text": "DPT16POLL"
+                    }
+                ],
+                "item.custitem_item_color": "Last Light",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6866&c=7913744&h=Trrojru89n9N-LJO3JkvTe0hKieexF0ioPcAEHPmTaRspVa0",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1450",
+                        "text": "DPT16POLL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "956543",
+                        "text": "23047 Nathalie Johnsen"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "Nathalie Johnsen\r\n17014 County Rd 15\r\nMoose Creek ON K0C 1W0\r\nCanada",
+                "shipmethod": [
+                    {
+                        "value": "1036",
+                        "text": "Economy International"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35304",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6866&c=7913744&h=Trrojru89n9N-LJO3JkvTe0hKieexF0ioPcAEHPmTaRspVa0",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^342cbffc^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1234504",
+            "values": {
+                "datecreated": "09/18/2025 8:43 am",
+                "createdFrom.tranid": "SO30628",
+                "tranid": "IF32206",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1038",
+                        "text": "DPT16MPB-LE-SHIT"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1038",
+                        "text": "DPT16MPB-LE-SHIT"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "962544",
+                        "text": "23180 Susan Rolly"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Susan Rolly\r\n132 Climbing Aster Way\r\nAsheville NC 28806\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "1035",
+                        "text": "Local Pickup"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35477",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1234504",
+            "values": {
+                "datecreated": "09/18/2025 8:43 am",
+                "createdFrom.tranid": "SO30628",
+                "tranid": "IF32206",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1429",
+                        "text": "DPT16MPB"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8449&c=7913744&h=RiVQdaXHGQr4_nV_WzmozsiQmviOUb90xNVKejoBipOnONwG",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1429",
+                        "text": "DPT16MPB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "962544",
+                        "text": "23180 Susan Rolly"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Susan Rolly\r\n132 Climbing Aster Way\r\nAsheville NC 28806\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "1035",
+                        "text": "Local Pickup"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35477",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8449&c=7913744&h=RiVQdaXHGQr4_nV_WzmozsiQmviOUb90xNVKejoBipOnONwG",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1249718",
+            "values": {
+                "datecreated": "09/24/2025 9:20 am",
+                "createdFrom.tranid": "SO30937",
+                "tranid": "IF32560",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1090",
+                        "text": "DPT16MK-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Kraken (Black)",
+                "custcol1": "",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1090",
+                        "text": "DPT16MK-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "973044",
+                        "text": "23412 J-Michael Roberts"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "J-Michael Roberts\r\n315 North Norwinden Drive\r\nSpringfield PA 19064\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35766",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^344764dc^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1249718",
+            "values": {
+                "datecreated": "09/24/2025 9:20 am",
+                "createdFrom.tranid": "SO30937",
+                "tranid": "IF32560",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1356",
+                        "text": "DPT16MK"
+                    }
+                ],
+                "item.custitem_item_color": "Kraken Black",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8454&c=7913744&h=jZHeV5H1DhbdaH58qrW4ciWAtQsN1d4ej5O93qsomuArV4qi",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1356",
+                        "text": "DPT16MK"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "973044",
+                        "text": "23412 J-Michael Roberts"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "J-Michael Roberts\r\n315 North Norwinden Drive\r\nSpringfield PA 19064\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#35766",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8454&c=7913744&h=jZHeV5H1DhbdaH58qrW4ciWAtQsN1d4ej5O93qsomuArV4qi",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^344764dc^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1250966",
+            "values": {
+                "datecreated": "09/24/2025 4:39 pm",
+                "createdFrom.tranid": "SO31117",
+                "tranid": "IF32742",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "2",
+                        "text": "Non-Customized"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1573",
+                        "text": "LID-AT"
+                    }
+                ],
+                "item.custitem_item_color": "",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1573",
+                        "text": "LID-AT"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "7224",
+                        "text": "1060 Mike Kang"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "Mike Kang\n166 Soleil Circle\nEagle CO 81631\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "4",
+                        "text": "UPS® Ground"
+                    }
+                ],
+                "createdFrom.otherrefnum": "",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1250966",
+            "values": {
+                "datecreated": "09/24/2025 4:39 pm",
+                "createdFrom.tranid": "SO31117",
+                "tranid": "IF32742",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "2",
+                        "text": "Non-Customized"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "82",
+                        "text": "PLIDRK"
+                    }
+                ],
+                "item.custitem_item_color": "",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7005&c=7913744&h=NtvA7NT-3sPGcs4TtkVNPZUFC8V2q3rCkj52Fgg6vk5uNCJl",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "82",
+                        "text": "PLIDRK"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "7224",
+                        "text": "1060 Mike Kang"
+                    }
+                ],
+                "quantity": "3",
+                "shipaddress": "Mike Kang\n166 Soleil Circle\nEagle CO 81631\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "4",
+                        "text": "UPS® Ground"
+                    }
+                ],
+                "createdFrom.otherrefnum": "",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7005&c=7913744&h=NtvA7NT-3sPGcs4TtkVNPZUFC8V2q3rCkj52Fgg6vk5uNCJl",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1255473",
+            "values": {
+                "datecreated": "09/26/2025 9:19 am",
+                "createdFrom.tranid": "SO30179",
+                "tranid": "IF32852",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1510",
+                        "text": "DPT26MSP"
+                    }
+                ],
+                "item.custitem_item_color": "Solstice Purple",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8459&c=7913744&h=BYHsZMHJJd-KO6vnkJ-UbEmOoyaYbG5AdXxFVKyqdpJ9VA0o",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1510",
+                        "text": "DPT26MSP"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "644964",
+                        "text": "13407 Susan Kelly"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Susan Kelly\r\n1711 Highway 17 S #953\r\nSurfside Beach SC 29575\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "REPLACEMENT",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8459&c=7913744&h=BYHsZMHJJd-KO6vnkJ-UbEmOoyaYbG5AdXxFVKyqdpJ9VA0o",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^344f167a^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1255473",
+            "values": {
+                "datecreated": "09/26/2025 9:19 am",
+                "createdFrom.tranid": "SO30179",
+                "tranid": "IF32852",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1513",
+                        "text": "DPT26MTD"
+                    }
+                ],
+                "item.custitem_item_color": "The Deep (Navy)",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8468&c=7913744&h=zyh7GMIFQ7cDkD37sjbUZCdDuFooOJGyD2SeTF8I073YrfTE",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1513",
+                        "text": "DPT26MTD"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "644964",
+                        "text": "13407 Susan Kelly"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Susan Kelly\r\n1711 Highway 17 S #953\r\nSurfside Beach SC 29575\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "REPLACEMENT",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8468&c=7913744&h=zyh7GMIFQ7cDkD37sjbUZCdDuFooOJGyD2SeTF8I073YrfTE",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^344f167a^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1255474",
+            "values": {
+                "datecreated": "09/26/2025 9:22 am",
+                "createdFrom.tranid": "SO30034",
+                "tranid": "IF32853",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1433",
+                        "text": "DPT16MS"
+                    }
+                ],
+                "item.custitem_item_color": "Solar Orange",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8461&c=7913744&h=gJvJgUqF2uuSiEdN8U0cFx6i-HeTj5W8MJEt-nI4vxhQ5SCN",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1433",
+                        "text": "DPT16MS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "94575",
+                        "text": "2680 A Matthews"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "A Matthews\r\n221 Beaver St\r\nFernie BC V0B 1M1\r\nCanada",
+                "shipmethod": [
+                    {
+                        "value": "1036",
+                        "text": "Economy International"
+                    }
+                ],
+                "createdFrom.otherrefnum": "REPLACEMENT",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8461&c=7913744&h=gJvJgUqF2uuSiEdN8U0cFx6i-HeTj5W8MJEt-nI4vxhQ5SCN",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^344f18fc^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1255475",
+            "values": {
+                "datecreated": "09/26/2025 9:23 am",
+                "createdFrom.tranid": "SO30037",
+                "tranid": "IF32854",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1403",
+                        "text": "DPT16MC"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=9251&c=7913744&h=sQkNmO1pKI13pnmqJS3WllHs4g21o4dpA6VDpl9nz4G9mhQ3",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1403",
+                        "text": "DPT16MC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "927781",
+                        "text": "22394 Wesley Bowen"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Wesley Bowen\r\n512 W Harborview Road\r\nSanta Rosa Beach FL 32459\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "REPLACEMENT",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=9251&c=7913744&h=sQkNmO1pKI13pnmqJS3WllHs4g21o4dpA6VDpl9nz4G9mhQ3",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^344f1ab2^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263722",
+            "values": {
+                "datecreated": "09/29/2025 9:27 am",
+                "createdFrom.tranid": "SO31350",
+                "tranid": "IF33053",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "Red tumbler personalized GFT",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1095",
+                        "text": "DPT26GPR-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Party Red",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1095",
+                        "text": "DPT26GPR-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "971646",
+                        "text": "23371 Cathy Throm"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Cathy L Throm\r\n9338 SOUTHTOWNE FARMS DR\r\nSAINT LOUIS MO 63123-7048\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36162",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34586fe6^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263722",
+            "values": {
+                "datecreated": "09/29/2025 9:27 am",
+                "createdFrom.tranid": "SO31350",
+                "tranid": "IF33053",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "Red tumbler personalized GFT",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1471",
+                        "text": "DPT26GPR"
+                    }
+                ],
+                "item.custitem_item_color": "Party Red",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8453&c=7913744&h=tZQ3ji9xcJGV4FouxkyR0BR58ct9XxWR6_VTDFSjiHaOdl8N",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1471",
+                        "text": "DPT26GPR"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "971646",
+                        "text": "23371 Cathy Throm"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Cathy L Throm\r\n9338 SOUTHTOWNE FARMS DR\r\nSAINT LOUIS MO 63123-7048\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36162",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8453&c=7913744&h=tZQ3ji9xcJGV4FouxkyR0BR58ct9XxWR6_VTDFSjiHaOdl8N",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34586fe6^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263722",
+            "values": {
+                "datecreated": "09/29/2025 9:27 am",
+                "createdFrom.tranid": "SO31350",
+                "tranid": "IF33053",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "Red tumbler personalized GFT",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1526",
+                        "text": "DPT26POSC"
+                    }
+                ],
+                "item.custitem_item_color": "Sand Castle",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5751&c=7913744&h=gM_yceGUSkRqsRxzOkwSO5Jf9Ox5omKdVMmhlHJMSA7yqBrG",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1526",
+                        "text": "DPT26POSC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "971646",
+                        "text": "23371 Cathy Throm"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Cathy L Throm\r\n9338 SOUTHTOWNE FARMS DR\r\nSAINT LOUIS MO 63123-7048\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36162",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5751&c=7913744&h=gM_yceGUSkRqsRxzOkwSO5Jf9Ox5omKdVMmhlHJMSA7yqBrG",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34586fe6^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263725",
+            "values": {
+                "datecreated": "09/29/2025 9:27 am",
+                "createdFrom.tranid": "SO31363",
+                "tranid": "IF33056",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1015",
+                        "text": "PL-STCK-TRTL"
+                    }
+                ],
+                "item.custitem_item_color": "Sea Turtle",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1015",
+                        "text": "PL-STCK-TRTL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "982659",
+                        "text": "23687 Doug Mosley"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Doug Mosley\r\n1515 N Federal Hwy\r\nSuite 304\r\nBoca Raton FL 33432\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36175",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34586ff1^",
+                "item.type": [
+                    {
+                        "value": "NonInvtPart",
+                        "text": "Non-inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263744",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31380",
+                "tranid": "IF33075",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1233",
+                        "text": "DPT26MFG-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Forever Green",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1233",
+                        "text": "DPT26MFG-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983060",
+                        "text": "23699 Emma Price"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Emma Price\r\n3901 Travis Street\r\n227\r\nDallas TX 75204\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36192",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345870dd^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263744",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31380",
+                "tranid": "IF33075",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1486",
+                        "text": "DPT26MFG"
+                    }
+                ],
+                "item.custitem_item_color": "Forever Green",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8458&c=7913744&h=UxMdqeXTgmF1CrPRChf01G8dXxz6R2ZFxtKB52wDBIWHNZBu",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1486",
+                        "text": "DPT26MFG"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983060",
+                        "text": "23699 Emma Price"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Emma Price\r\n3901 Travis Street\r\n227\r\nDallas TX 75204\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36192",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8458&c=7913744&h=UxMdqeXTgmF1CrPRChf01G8dXxz6R2ZFxtKB52wDBIWHNZBu",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345870dd^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263746",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31379",
+                "tranid": "IF33077",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1038",
+                        "text": "DPT16MPB-LE-SHIT"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1038",
+                        "text": "DPT16MPB-LE-SHIT"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983059",
+                        "text": "23698 Sarah Powell"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Sarah Powell\r\n6022 Magnolia Dr\r\nKiln MS 39556\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36191",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345870eb^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263746",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31379",
+                "tranid": "IF33077",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1429",
+                        "text": "DPT16MPB"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8449&c=7913744&h=RiVQdaXHGQr4_nV_WzmozsiQmviOUb90xNVKejoBipOnONwG",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1429",
+                        "text": "DPT16MPB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983059",
+                        "text": "23698 Sarah Powell"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Sarah Powell\r\n6022 Magnolia Dr\r\nKiln MS 39556\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36191",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8449&c=7913744&h=RiVQdaXHGQr4_nV_WzmozsiQmviOUb90xNVKejoBipOnONwG",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345870eb^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263750",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31386",
+                "tranid": "IF33081",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1101",
+                        "text": "DPT16MSP-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Solstice Purple",
+                "custcol1": "",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1101",
+                        "text": "DPT16MSP-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983458",
+                        "text": "23703 Amy Prose"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Amy Prose\r\n3311 Tree Grove Drive\r\nSan Antonio TX 78247\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36198",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587106^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263750",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31386",
+                "tranid": "IF33081",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1438",
+                        "text": "DPT16MSP"
+                    }
+                ],
+                "item.custitem_item_color": "Solstice Purple",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5740&c=7913744&h=-wM4R-i9QyY1sD3WINDwkdGX3O2ALU2epU71C-SfDhxlON7Z",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1438",
+                        "text": "DPT16MSP"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983458",
+                        "text": "23703 Amy Prose"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Amy Prose\r\n3311 Tree Grove Drive\r\nSan Antonio TX 78247\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36198",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5740&c=7913744&h=-wM4R-i9QyY1sD3WINDwkdGX3O2ALU2epU71C-SfDhxlON7Z",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587106^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263752",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31450",
+                "tranid": "IF33083",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "Kathryn",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1094",
+                        "text": "DPT26MDFF-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Dragon Fruit Fuchsia",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1094",
+                        "text": "DPT26MDFF-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "859010",
+                        "text": "20335 Kathryn Santos"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Kathryn Santos\r\n503 Charles Pinckney St\r\nOrange Park FL 32073\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36262",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587117^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263752",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31450",
+                "tranid": "IF33083",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "Kathryn",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1482",
+                        "text": "DPT26MDFF"
+                    }
+                ],
+                "item.custitem_item_color": "Dragon Fruit Fuchsia",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8451&c=7913744&h=OQqD84X9i1Gq2opmQoh_LNaeU4vTtsgXWwbzcqsfhuOR4npO",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1482",
+                        "text": "DPT26MDFF"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "859010",
+                        "text": "20335 Kathryn Santos"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Kathryn Santos\r\n503 Charles Pinckney St\r\nOrange Park FL 32073\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36262",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8451&c=7913744&h=OQqD84X9i1Gq2opmQoh_LNaeU4vTtsgXWwbzcqsfhuOR4npO",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587117^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263764",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31496",
+                "tranid": "IF33095",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1007",
+                        "text": "PTLD-OG"
+                    }
+                ],
+                "item.custitem_item_color": "",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1007",
+                        "text": "PTLD-OG"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "540469",
+                        "text": "10673 Darcy Detwiler"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "DARCY DETWILER\r\n1861 North Rowen Circle\r\nMesa AZ 85207\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36289",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345871bb^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263764",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31496",
+                "tranid": "IF33095",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1038",
+                        "text": "DPT16MPB-LE-SHIT"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1038",
+                        "text": "DPT16MPB-LE-SHIT"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "540469",
+                        "text": "10673 Darcy Detwiler"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "DARCY DETWILER\r\n1861 North Rowen Circle\r\nMesa AZ 85207\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36289",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345871bb^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263764",
+            "values": {
+                "datecreated": "09/29/2025 9:28 am",
+                "createdFrom.tranid": "SO31496",
+                "tranid": "IF33095",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1429",
+                        "text": "DPT16MPB"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8449&c=7913744&h=RiVQdaXHGQr4_nV_WzmozsiQmviOUb90xNVKejoBipOnONwG",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1429",
+                        "text": "DPT16MPB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "540469",
+                        "text": "10673 Darcy Detwiler"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "DARCY DETWILER\r\n1861 North Rowen Circle\r\nMesa AZ 85207\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36289",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8449&c=7913744&h=RiVQdaXHGQr4_nV_WzmozsiQmviOUb90xNVKejoBipOnONwG",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345871bb^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263783",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31409",
+                "tranid": "IF33114",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1015",
+                        "text": "PL-STCK-TRTL"
+                    }
+                ],
+                "item.custitem_item_color": "Sea Turtle",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1015",
+                        "text": "PL-STCK-TRTL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983958",
+                        "text": "23719 Tara Bradham"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Tara Bradham\r\n2023 Silverleaf Dr\r\nYoungsville NC 27596\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36221",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3458721c^",
+                "item.type": [
+                    {
+                        "value": "NonInvtPart",
+                        "text": "Non-inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263794",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31475",
+                "tranid": "IF33125",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1094",
+                        "text": "DPT26MDFF-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Dragon Fruit Fuchsia",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1094",
+                        "text": "DPT26MDFF-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "985458",
+                        "text": "23765 Michelle Rivera"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Michelle Rivera\r\n724 Keystone Park Dr\r\nMorrisville NC 27560\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36292",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587280^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263794",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31475",
+                "tranid": "IF33125",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1482",
+                        "text": "DPT26MDFF"
+                    }
+                ],
+                "item.custitem_item_color": "Dragon Fruit Fuchsia",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8451&c=7913744&h=OQqD84X9i1Gq2opmQoh_LNaeU4vTtsgXWwbzcqsfhuOR4npO",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1482",
+                        "text": "DPT26MDFF"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "985458",
+                        "text": "23765 Michelle Rivera"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Michelle Rivera\r\n724 Keystone Park Dr\r\nMorrisville NC 27560\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36292",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8451&c=7913744&h=OQqD84X9i1Gq2opmQoh_LNaeU4vTtsgXWwbzcqsfhuOR4npO",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587280^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263795",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31466",
+                "tranid": "IF33126",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1562",
+                        "text": "DPT26SC-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Champagne",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1562",
+                        "text": "DPT26SC-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "985159",
+                        "text": "23757 Michael Halpin"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Patty Fichera\r\n2325 39th St\r\nGalveston TX 77550\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36280",
+                "formulatext": "Gallery",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345872c8^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263795",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31466",
+                "tranid": "IF33126",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1534",
+                        "text": "DPT26SC"
+                    }
+                ],
+                "item.custitem_item_color": "Champagne",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5736&c=7913744&h=ubVZ6d6kXtArPjXwwK693yvRDKgGuKgcc3dEDSiSe3pl190V",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1534",
+                        "text": "DPT26SC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "985159",
+                        "text": "23757 Michael Halpin"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Patty Fichera\r\n2325 39th St\r\nGalveston TX 77550\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36280",
+                "formulatext": "Gallery",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5736&c=7913744&h=ubVZ6d6kXtArPjXwwK693yvRDKgGuKgcc3dEDSiSe3pl190V",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345872c8^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263795",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31466",
+                "tranid": "IF33126",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1112",
+                        "text": "DPT26MGW-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Great White",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1112",
+                        "text": "DPT26MGW-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "985159",
+                        "text": "23757 Michael Halpin"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Patty Fichera\r\n2325 39th St\r\nGalveston TX 77550\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36280",
+                "formulatext": "Gallery",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345872c8^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263795",
+            "values": {
+                "datecreated": "09/29/2025 9:29 am",
+                "createdFrom.tranid": "SO31466",
+                "tranid": "IF33126",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1490",
+                        "text": "DPT26MGW"
+                    }
+                ],
+                "item.custitem_item_color": "Great White",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8462&c=7913744&h=l2UVeXcFZC3OpKPIusGkkHY803oXieJZWMLSF_hpTZC6qZDF",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1490",
+                        "text": "DPT26MGW"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "985159",
+                        "text": "23757 Michael Halpin"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Patty Fichera\r\n2325 39th St\r\nGalveston TX 77550\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36280",
+                "formulatext": "Gallery",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=8462&c=7913744&h=l2UVeXcFZC3OpKPIusGkkHY803oXieJZWMLSF_hpTZC6qZDF",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345872c8^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263800",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31455",
+                "tranid": "IF33131",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1321",
+                        "text": "DPT26MC-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1321",
+                        "text": "DPT26MC-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "984859",
+                        "text": "23749 Shelly Wilkins"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Shelly Wilkins\r\n4039 Joe Hamme Rd\r\nOxford NC 27565\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36267",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345872e7^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263800",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31455",
+                "tranid": "IF33131",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1478",
+                        "text": "DPT26MC"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5736&c=7913744&h=ubVZ6d6kXtArPjXwwK693yvRDKgGuKgcc3dEDSiSe3pl190V",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1478",
+                        "text": "DPT26MC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "984859",
+                        "text": "23749 Shelly Wilkins"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Shelly Wilkins\r\n4039 Joe Hamme Rd\r\nOxford NC 27565\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36267",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5736&c=7913744&h=ubVZ6d6kXtArPjXwwK693yvRDKgGuKgcc3dEDSiSe3pl190V",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345872e7^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263817",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31394",
+                "tranid": "IF33148",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "82",
+                        "text": "PLIDRK"
+                    }
+                ],
+                "item.custitem_item_color": "",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7005&c=7913744&h=NtvA7NT-3sPGcs4TtkVNPZUFC8V2q3rCkj52Fgg6vk5uNCJl",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "82",
+                        "text": "PLIDRK"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983659",
+                        "text": "23707 Becky Kind"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "Becky Kind\r\n3760\r\nE. Acacia\r\nMidland MI 48642\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36206",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=7005&c=7913744&h=NtvA7NT-3sPGcs4TtkVNPZUFC8V2q3rCkj52Fgg6vk5uNCJl",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3458737b^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263817",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31394",
+                "tranid": "IF33148",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1227",
+                        "text": "DPT10MPB-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1227",
+                        "text": "DPT10MPB-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983659",
+                        "text": "23707 Becky Kind"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "Becky Kind\r\n3760\r\nE. Acacia\r\nMidland MI 48642\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36206",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3458737b^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263817",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31394",
+                "tranid": "IF33148",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1383",
+                        "text": "DPT10MPB"
+                    }
+                ],
+                "item.custitem_item_color": "Paradise Blue",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6996&c=7913744&h=zI31BNGGOfDLyH4rXXqcvFUufSuWOm9y2uw_u1vLu4Y-yDgl",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1383",
+                        "text": "DPT10MPB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983659",
+                        "text": "23707 Becky Kind"
+                    }
+                ],
+                "quantity": "2",
+                "shipaddress": "Becky Kind\r\n3760\r\nE. Acacia\r\nMidland MI 48642\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36206",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6996&c=7913744&h=zI31BNGGOfDLyH4rXXqcvFUufSuWOm9y2uw_u1vLu4Y-yDgl",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3458737b^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263817",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31394",
+                "tranid": "IF33148",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1294",
+                        "text": "DPT10MC-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1294",
+                        "text": "DPT10MC-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983659",
+                        "text": "23707 Becky Kind"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Becky Kind\r\n3760\r\nE. Acacia\r\nMidland MI 48642\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36206",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3458737b^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263817",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31394",
+                "tranid": "IF33148",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1361",
+                        "text": "DPT10MC"
+                    }
+                ],
+                "item.custitem_item_color": "Coral",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6995&c=7913744&h=JCUOofdqSV1B08E2ZkLTrptQN_CIPtoEWfydeesmXxT5bYJH",
+                "item.custitem_item_size": "10oz",
+                "item_1": [
+                    {
+                        "value": "1361",
+                        "text": "DPT10MC"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "983659",
+                        "text": "23707 Becky Kind"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Becky Kind\r\n3760\r\nE. Acacia\r\nMidland MI 48642\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36206",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6995&c=7913744&h=JCUOofdqSV1B08E2ZkLTrptQN_CIPtoEWfydeesmXxT5bYJH",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^3458737b^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263818",
+            "values": {
+                "datecreated": "09/29/2025 9:30 am",
+                "createdFrom.tranid": "SO31463",
+                "tranid": "IF33149",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1015",
+                        "text": "PL-STCK-TRTL"
+                    }
+                ],
+                "item.custitem_item_color": "Sea Turtle",
+                "custcol1": "",
+                "item.custitem_item_size": "",
+                "item_1": [
+                    {
+                        "value": "1015",
+                        "text": "PL-STCK-TRTL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "975646",
+                        "text": "23477 Brittany Huber"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Brittany Huber\r\n74 Applewood Common\r\nBrentwood CA 94513\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36277",
+                "formulatext": "",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587386^",
+                "item.type": [
+                    {
+                        "value": "NonInvtPart",
+                        "text": "Non-inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263827",
+            "values": {
+                "datecreated": "09/29/2025 9:31 am",
+                "createdFrom.tranid": "SO31422",
+                "tranid": "IF33158",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1101",
+                        "text": "DPT16MSP-PERS"
+                    }
+                ],
+                "item.custitem_item_color": "Solstice Purple",
+                "custcol1": "",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1101",
+                        "text": "DPT16MSP-PERS"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "984162",
+                        "text": "23730 Amber Gaskins"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "AMBER GASKINS\r\n3991 Glen Moor Way\r\nKokomo IN 46902\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36234",
+                "formulatext": "Text",
+                "custcol1_1": "",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587413^",
+                "item.type": [
+                    {
+                        "value": "Kit",
+                        "text": "Kit/Package"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1263827",
+            "values": {
+                "datecreated": "09/29/2025 9:31 am",
+                "createdFrom.tranid": "SO31422",
+                "tranid": "IF33158",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1438",
+                        "text": "DPT16MSP"
+                    }
+                ],
+                "item.custitem_item_color": "Solstice Purple",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5740&c=7913744&h=-wM4R-i9QyY1sD3WINDwkdGX3O2ALU2epU71C-SfDhxlON7Z",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1438",
+                        "text": "DPT16MSP"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "984162",
+                        "text": "23730 Amber Gaskins"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "AMBER GASKINS\r\n3991 Glen Moor Way\r\nKokomo IN 46902\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "288",
+                        "text": "Flate Rate"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36234",
+                "formulatext": "Text",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=5740&c=7913744&h=-wM4R-i9QyY1sD3WINDwkdGX3O2ALU2epU71C-SfDhxlON7Z",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^34587413^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1264741",
+            "values": {
+                "datecreated": "09/29/2025 4:08 pm",
+                "createdFrom.tranid": "SO31287",
+                "tranid": "IF33186",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1518",
+                        "text": "DPT26PODB"
+                    }
+                ],
+                "item.custitem_item_color": "Day Break",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6867&c=7913744&h=3GvvK9irpS408xAVIcHeQuQMR3bOozDnHVv1sCLos1C46pCb",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1518",
+                        "text": "DPT26PODB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "981155",
+                        "text": "23635 Dawn Blumer"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Dawn Blumer\r\n10 North Beaver Street\r\nJordan NY 13080\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36098",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6867&c=7913744&h=3GvvK9irpS408xAVIcHeQuQMR3bOozDnHVv1sCLos1C46pCb",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345a74e5^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1264741",
+            "values": {
+                "datecreated": "09/29/2025 4:08 pm",
+                "createdFrom.tranid": "SO31287",
+                "tranid": "IF33186",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1522",
+                        "text": "DPT26POLL"
+                    }
+                ],
+                "item.custitem_item_color": "Last Light",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6868&c=7913744&h=kFAJ0cO3GFqFjHw27VW6YRDJuNGJIRCkDjMmjjUhfb3zGLRv",
+                "item.custitem_item_size": "26oz",
+                "item_1": [
+                    {
+                        "value": "1522",
+                        "text": "DPT26POLL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "981155",
+                        "text": "23635 Dawn Blumer"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Dawn Blumer\r\n10 North Beaver Street\r\nJordan NY 13080\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36098",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6868&c=7913744&h=kFAJ0cO3GFqFjHw27VW6YRDJuNGJIRCkDjMmjjUhfb3zGLRv",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345a74e5^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1264741",
+            "values": {
+                "datecreated": "09/29/2025 4:08 pm",
+                "createdFrom.tranid": "SO31287",
+                "tranid": "IF33186",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1446",
+                        "text": "DPT16PODB"
+                    }
+                ],
+                "item.custitem_item_color": "Day Break",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6867&c=7913744&h=3GvvK9irpS408xAVIcHeQuQMR3bOozDnHVv1sCLos1C46pCb",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1446",
+                        "text": "DPT16PODB"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "981155",
+                        "text": "23635 Dawn Blumer"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Dawn Blumer\r\n10 North Beaver Street\r\nJordan NY 13080\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36098",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6867&c=7913744&h=3GvvK9irpS408xAVIcHeQuQMR3bOozDnHVv1sCLos1C46pCb",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345a74e5^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        },
+        {
+            "recordType": "itemfulfillment",
+            "id": "1264741",
+            "values": {
+                "datecreated": "09/29/2025 4:08 pm",
+                "createdFrom.tranid": "SO31287",
+                "tranid": "IF33186",
+                "type": [
+                    {
+                        "value": "ItemShip",
+                        "text": "Item Fulfillment"
+                    }
+                ],
+                "createdFrom.memo": "",
+                "createdFrom.custbodypir_sales_order_warehouse_note": "",
+                "createdFrom.class": [
+                    {
+                        "value": "11",
+                        "text": "Online Sales"
+                    }
+                ],
+                "item": [
+                    {
+                        "value": "1450",
+                        "text": "DPT16POLL"
+                    }
+                ],
+                "item.custitem_item_color": "Last Light",
+                "custcol1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6866&c=7913744&h=Trrojru89n9N-LJO3JkvTe0hKieexF0ioPcAEHPmTaRspVa0",
+                "item.custitem_item_size": "16oz",
+                "item_1": [
+                    {
+                        "value": "1450",
+                        "text": "DPT16POLL"
+                    }
+                ],
+                "name": [
+                    {
+                        "value": "981155",
+                        "text": "23635 Dawn Blumer"
+                    }
+                ],
+                "quantity": "1",
+                "shipaddress": "Dawn Blumer\r\n10 North Beaver Street\r\nJordan NY 13080\r\nUnited States",
+                "shipmethod": [
+                    {
+                        "value": "293",
+                        "text": "Free Shipping"
+                    }
+                ],
+                "createdFrom.otherrefnum": "#36098",
+                "formulatext": "",
+                "custcol1_1": "https://7913744.app.netsuite.com/core/media/media.nl?id=6866&c=7913744&h=Trrojru89n9N-LJO3JkvTe0hKieexF0ioPcAEHPmTaRspVa0",
+                "custbody_fulfilled_by": "",
+                "custbody_pir_shipstation_ordid": "^#^345a74e5^",
+                "item.type": [
+                    {
+                        "value": "InvtPart",
+                        "text": "Inventory Item"
+                    }
+                ]
+            }
+        }
+    ]
+}
