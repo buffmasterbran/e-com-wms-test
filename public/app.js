@@ -9,7 +9,11 @@ let appState = {
     fulfillments: [],
     currentPage: 'singles',
     currentSizeFilter: 'all',
-    singleItemOrders: []
+    singleItemOrders: [],
+    // Track which orders belong to which category (for mutual exclusivity)
+    singlesOrderIds: new Set(),
+    bulkOrderIds: new Set(),
+    highVolumeOrderIds: new Set()
 };
 
 // Initialize App
@@ -184,8 +188,8 @@ function showSuccessMessage(message) {
     }, 3000);
 }
 
-// Load singles orders (orders with only 1 item per fulfillment)
-function loadSinglesOrders() {
+// Pre-categorize singles orders (for mutual exclusivity tracking)
+function categorizeSinglesOrders() {
     // Filter fulfillments to get single item orders
     const singleItemFulfillments = appState.fulfillments.filter(f => f.quantity === 1);
     
@@ -213,6 +217,23 @@ function loadSinglesOrders() {
     // Convert back to array - only orders with exactly 1 unique item (singles)
     appState.singleItemOrders = Array.from(orderMap.values()).filter(order => order.itemCount === 1);
     
+    // Track singles order IDs for mutual exclusivity
+    appState.singlesOrderIds.clear();
+    appState.singleItemOrders.forEach(order => {
+        const orderId = order.salesOrderId || order.transactionId;
+        appState.singlesOrderIds.add(orderId);
+    });
+    
+    console.log(`Categorized ${appState.singlesOrderIds.size} single orders`);
+}
+
+// Load singles orders (orders with only 1 item per fulfillment)
+function loadSinglesOrders() {
+    // Ensure singles are categorized (may already be done during initial load)
+    if (appState.singleItemOrders.length === 0 || appState.singlesOrderIds.size === 0) {
+        categorizeSinglesOrders();
+    }
+    
     // Display with current filter
     filterSinglesOrders(appState.currentSizeFilter);
 }
@@ -232,8 +253,13 @@ function loadBulkOrders() {
         orderMap.get(orderId).push(f);
     });
     
-    // For each order, create a signature and group identical ones
+    // For each order, create a signature and group identical ones (excluding singles)
     orderMap.forEach((items, orderId) => {
+        // EXCLUDE orders that are already in Singles
+        if (appState.singlesOrderIds.has(orderId)) {
+            return;
+        }
+        
         // Sort items by SKU and create a signature
         const itemSignature = items
             .map(item => `${item.itemSku}:${item.quantity}`)
@@ -268,6 +294,16 @@ function loadBulkOrders() {
     const bulkGroups = Array.from(orderSignatures.values())
         .filter(group => group.totalOrders >= 2)
         .sort((a, b) => b.totalOrders - a.totalOrders); // Sort by count descending
+    
+    // Track bulk order IDs for mutual exclusivity
+    appState.bulkOrderIds.clear();
+    bulkGroups.forEach(group => {
+        group.orders.forEach(order => {
+            appState.bulkOrderIds.add(order.orderId);
+        });
+    });
+    
+    console.log(`Categorized ${appState.bulkOrderIds.size} bulk orders (excluding ${appState.singlesOrderIds.size} singles)`);
     
     displayBulkOrders(bulkGroups);
 }
@@ -472,10 +508,17 @@ function displaySinglesOrders(orders) {
 
 // Load high volume orders (group by SKU)
 function loadHighVolumeOrders() {
-    // Group fulfillments by SKU
+    // Group fulfillments by SKU (excluding Singles and Bulk orders)
     const skuMap = new Map();
     
     appState.fulfillments.forEach(fulfillment => {
+        const orderId = fulfillment.salesOrderId || fulfillment.transactionId;
+        
+        // EXCLUDE orders that are already in Singles or Bulk
+        if (appState.singlesOrderIds.has(orderId) || appState.bulkOrderIds.has(orderId)) {
+            return;
+        }
+        
         const sku = fulfillment.itemSku;
         
         if (!skuMap.has(sku)) {
@@ -486,12 +529,19 @@ function loadHighVolumeOrders() {
                 itemColor: fulfillment.itemColor,
                 orderCount: 0,
                 totalQuantity: 0,
-                orders: []
+                orders: [],
+                orderIds: new Set()
             });
         }
         
         const skuData = skuMap.get(sku);
-        skuData.orderCount++;
+        
+        // Only count unique orders per SKU
+        if (!skuData.orderIds.has(orderId)) {
+            skuData.orderCount++;
+            skuData.orderIds.add(orderId);
+        }
+        
         skuData.totalQuantity += fulfillment.quantity;
         skuData.orders.push(fulfillment);
     });
@@ -500,6 +550,16 @@ function loadHighVolumeOrders() {
     const highVolumeItems = Array.from(skuMap.values())
         .filter(item => item.orderCount >= 2)
         .sort((a, b) => b.orderCount - a.orderCount); // Sort by order count descending
+    
+    // Track high volume order IDs for mutual exclusivity
+    appState.highVolumeOrderIds.clear();
+    highVolumeItems.forEach(item => {
+        item.orderIds.forEach(orderId => {
+            appState.highVolumeOrderIds.add(orderId);
+        });
+    });
+    
+    console.log(`Categorized ${appState.highVolumeOrderIds.size} high volume orders (excluding ${appState.singlesOrderIds.size} singles + ${appState.bulkOrderIds.size} bulk)`);
     
     const tbody = document.getElementById('highVolumeTableBody');
     tbody.innerHTML = '';
@@ -534,7 +594,13 @@ function loadHighVolumeOrders() {
 
 // Show orders for a specific SKU
 function showOrdersForSku(sku, count) {
-    const skuData = appState.fulfillments.filter(f => f.itemSku === sku);
+    // Filter to get only orders with this SKU that aren't in Singles or Bulk
+    const skuData = appState.fulfillments.filter(f => {
+        const orderId = f.salesOrderId || f.transactionId;
+        return f.itemSku === sku && 
+               !appState.singlesOrderIds.has(orderId) && 
+               !appState.bulkOrderIds.has(orderId);
+    });
     
     // Update title
     document.getElementById('sku-orders-title').textContent = `${count} Orders for ${sku}`;
@@ -565,27 +631,21 @@ function showOrdersForSku(sku, count) {
 // Load unique orders
 function loadUniqueOrders() {
     // Unique orders are those that don't fit Singles, Bulk, or High Volume
-    // Singles: orders with exactly 1 item total quantity
-    // Bulk: orders with all identical items (single SKU, quantity > 1)
-    // High Volume: orders with total quantity >= 10
-    // Unique: everything else (mixed items, or other combinations)
+    // Simply exclude any order that's already been categorized
     
     const uniqueOrders = appState.orders.filter(order => {
-        const totalQty = order.totalQuantity || 0;
-        const itemCount = order.items?.length || 0;
+        const orderId = order.id;
         
-        // Exclude Singles (total quantity = 1)
-        if (totalQty === 1) return false;
+        // EXCLUDE orders that are already in Singles, Bulk, or High Volume
+        if (appState.singlesOrderIds.has(orderId)) return false;
+        if (appState.bulkOrderIds.has(orderId)) return false;
+        if (appState.highVolumeOrderIds.has(orderId)) return false;
         
-        // Exclude High Volume (total quantity >= 10)
-        if (totalQty >= 10) return false;
-        
-        // Exclude Bulk (single SKU with quantity > 1)
-        if (itemCount === 1 && totalQty > 1) return false;
-        
-        // This is a unique order (mixed items, or other patterns)
+        // This is a unique order (everything else)
         return true;
     });
+    
+    console.log(`Found ${uniqueOrders.length} unique orders (excluding ${appState.singlesOrderIds.size} singles + ${appState.bulkOrderIds.size} bulk + ${appState.highVolumeOrderIds.size} high volume)`);
     
     const tbody = document.getElementById('uniqueOrdersTableBody');
     tbody.innerHTML = '';
@@ -662,6 +722,10 @@ async function loadDashboardData() {
         const fulfillmentsResponse = await fetch(`${API_BASE}/fulfillments?limit=100`);
         const fulfillmentsData = await fulfillmentsResponse.json();
         appState.fulfillments = fulfillmentsData.fulfillments || [];
+        
+        // Pre-categorize orders for mutual exclusivity
+        // This ensures Singles are identified first, then Bulk, then High Volume
+        categorizeSinglesOrders();
         
         // Create chart
         createSalesChart(appState.fulfillments);
