@@ -564,27 +564,45 @@ function showOrdersForSku(sku, count) {
 
 // Load unique orders
 function loadUniqueOrders() {
-    // Filter orders with urgency or special class
-    const uniqueOrders = appState.orders.filter(order => 
-        order.urgency?.includes('Expedite') || 
-        order.orderClass?.includes('Customized')
-    );
+    // Unique orders are those that don't fit Singles, Bulk, or High Volume
+    // Singles: orders with exactly 1 item total quantity
+    // Bulk: orders with all identical items (single SKU, quantity > 1)
+    // High Volume: orders with total quantity >= 10
+    // Unique: everything else (mixed items, or other combinations)
+    
+    const uniqueOrders = appState.orders.filter(order => {
+        const totalQty = order.totalQuantity || 0;
+        const itemCount = order.items?.length || 0;
+        
+        // Exclude Singles (total quantity = 1)
+        if (totalQty === 1) return false;
+        
+        // Exclude High Volume (total quantity >= 10)
+        if (totalQty >= 10) return false;
+        
+        // Exclude Bulk (single SKU with quantity > 1)
+        if (itemCount === 1 && totalQty > 1) return false;
+        
+        // This is a unique order (mixed items, or other patterns)
+        return true;
+    });
     
     const tbody = document.getElementById('uniqueOrdersTableBody');
     tbody.innerHTML = '';
     
     if (uniqueOrders.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; padding: 40px; color: #999;">No unique orders found</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 40px; color: #999;">No unique orders found</td></tr>';
         return;
     }
     
     uniqueOrders.forEach(order => {
         const row = document.createElement('tr');
-        const notes = order.urgency || order.orderClass || 'Special order';
+        const itemsList = order.items?.map(item => `${item.sku} (${item.quantity})`).join(', ') || 'Mixed items';
         row.innerHTML = `
             <td><strong>${order.id}</strong></td>
             <td>${order.customerName}</td>
-            <td>${notes}</td>
+            <td>${order.totalQuantity}</td>
+            <td style="font-size: 0.85em;">${itemsList}</td>
             <td><span class="status-badge">${order.status}</span></td>
         `;
         tbody.appendChild(row);
