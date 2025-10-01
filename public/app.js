@@ -730,6 +730,9 @@ async function loadDashboardData() {
         // Create chart
         createSalesChart(appState.fulfillments);
         
+        // Reload the current page now that data is loaded
+        loadPageData(appState.currentPage);
+        
     } catch (error) {
         console.error('Error loading dashboard data:', error);
         // Show error message to user
