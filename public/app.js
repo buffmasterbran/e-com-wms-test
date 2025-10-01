@@ -469,6 +469,13 @@ function filterSinglesOrders(size) {
         });
     }
     
+    // Sort by SKU alphabetically
+    filteredOrders.sort((a, b) => {
+        const skuA = a.itemSku || '';
+        const skuB = b.itemSku || '';
+        return skuA.localeCompare(skuB);
+    });
+    
     // Display the filtered orders
     displaySinglesOrders(filteredOrders);
 }
