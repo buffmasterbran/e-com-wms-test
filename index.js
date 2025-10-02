@@ -26,6 +26,11 @@ app.use(morgan('combined'));
 app.use(express.json());
 app.use(express.static('public'));
 
+// Serve pack configuration
+app.get('/pack-config.json', (req, res) => {
+    res.sendFile(path.join(__dirname, 'pack-config.json'));
+});
+
 // Load sample data
 let netsuiteData = {};
 let processedData = {};
